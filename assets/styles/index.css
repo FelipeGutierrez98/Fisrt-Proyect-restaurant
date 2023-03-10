@@ -125,49 +125,41 @@ body {
   background-color: rgb(104, 8, 8);
 }
 
-@media (max-width:991px){
-  .header{
+@media (max-width: 991px) {
+  .header {
     height: 450px;
   }
-  .logo{
+  .logo {
     width: 100%;
-    
   }
   .menu {
     width: 100%;
     flex-direction: column;
     align-items: center;
   }
-  
 
-  .banner h1{
-   width: 100%;
+  .banner h1 {
+    width: 100%;
     font-size: 35px;
     align-items: center;
-    
   }
-  
 
-  .banner h1{
+  .banner h1 {
     width: 100%;
     align-items: center;
   }
-  .product-content{
+  .product-content {
     padding: 50px 30px 30px 30px;
     flex-direction: column;
-
   }
-  .promocion{
+  .promocion {
     margin: 20px;
   }
 
-  
-  .footer-nav{
+  .footer-nav {
     flex-direction: column;
   }
-  .footer-nav p{
+  .footer-nav p {
     margin-bottom: 20px;
-
   }
-
 }
